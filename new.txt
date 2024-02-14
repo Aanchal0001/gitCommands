@@ -1,0 +1,24 @@
+#config commands
+
+
+#clone :bringing any repo on github to our local system
+
+#git status    dispalys state of teh code : like your current working brnch , wheteher its uptodat with origin/main or not 
+                                            # it shows whetehr the repo herein locl is exct same as it is on github or there are changes , in case of any changes it will tell you about them
+    Moreover there are 4 status avaialable 
+    untracked : new files that git doesnot yet track (basically when you created a new whole file in local which has not yet commit and it was not there in githhub)
+    modified :  any new changes in a file already there in github
+    staged : ready to commit (once you add the untracked and modified fles , they are in staged state)
+    unmodified : means there were no changes 
+
+#modifiying or changeing a file 
+when you make a change in a file in the local system , then to save those changes in github side also , you have to folow a 2 step process
+1. add : adds new or changed files in your workingdirectory tothe Git staging area
+    git add filename
+        multiple filenames separate them by space 
+        if add all files then use .
+2. commit :  it is the record ofchange
+    git commit  -m "some message"
+
+
+#second commit

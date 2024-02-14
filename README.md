@@ -1,3 +1,3 @@
 # gitCommands
 learning purpose
-Author -Aanchal
+Author - Aanchal
